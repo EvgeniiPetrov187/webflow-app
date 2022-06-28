@@ -5,7 +5,7 @@
 </head>
 <body>
 <div>
-    <a href="${flowExecutionUrl}&_eventId_home">Home</a>
+    <a href="${flowExecutionUrl}&_eventId_url">NEXT</a>
 </div>
 <div>
     <h3> Start flow </h3>

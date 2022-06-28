@@ -3,11 +3,13 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.springframework.org/schema/webflow http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
-    <view-state id="code" view="flows/product_new1"/>
+    <view-state id="code" view="/product_new1"/>
+    <view-state id="url" view="/product_new2"/>
 
-    <end-state id="home" view="externalRedirect:contextRelative:/"/>
+<!--    <end-state id="home" view="externalRedirect:contextRelative:/"/>-->
 
     <global-transitions>
-        <transition on="home" to="home"/>
+        <transition on="home" to="code"/>
+        <transition on="url" to="url"/>
     </global-transitions>
 </flow>
